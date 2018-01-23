@@ -16,18 +16,16 @@ Gunakan hanya jika dosen pengampu matkul Anda memang pantas mendapatkan rating b
 Copy salah satu code:
 #### 1. Auto "Sangat Baik":
 ```javascript
-var jq = document.createElement('script');
-jq.src = "https://github.com/medreza/autoedom/raw/master/sangatbaik.js";
-document.getElementsByTagName('head')[0].appendChild(jq);
-jQuery.noConflict();
+var script = document.createElement("script");
+script.src = "https://cdn.rawgit.com/medreza/autoedom/b8305216/sangatbaik.js";
+document.body.appendChild(script);
 ```
 atau
 #### 2. Auto random "Baik" atau "Sangat Baik":
 ```javascript
-var jq = document.createElement('script');
-jq.src = "https://github.com/medreza/autoedom/raw/master/random_baik.js";
-document.getElementsByTagName('head')[0].appendChild(jq);
-jQuery.noConflict();
+var script = document.createElement("script");
+script.src = "https://cdn.rawgit.com/medreza/autoedom/b8305216/random_baik.js";
+document.body.appendChild(script);
 ```
 Lalu di halaman kita ngasih rating EDoM tiap matkul (yang banyak bunder2nya) buka fitur Inspect Element (Firefox), pilih tab Console, paste di Console-nya, enter.
 
