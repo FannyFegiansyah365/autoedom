@@ -24,7 +24,7 @@ atau
 #### 2. Auto random "Baik" atau "Sangat Baik":
 ```javascript
 var script = document.createElement("script");
-script.src = "https://cdn.rawgit.com/medreza/autoedom/b8305216/random_baik.js";
+script.src = "https://cdn.rawgit.com/medreza/autoedom/dabed8a5/random_baik.js";
 document.body.appendChild(script);
 ```
 Lalu di halaman kita ngasih rating EDoM tiap matkul (yang banyak bunder2nya) buka fitur Inspect Element (Firefox), pilih tab Console, paste di Console-nya, enter.
