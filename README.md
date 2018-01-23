@@ -12,23 +12,29 @@ Gunakan hanya jika dosen pengampu matkul Anda memang pantas mendapatkan rating b
 
 ### USE AT YOUR OWN RISK!!1!!1!
 
-### Cara Pakai (noob)
-Copy salah satu code:
-#### 1. Auto "Sangat Baik":
+## Cara Menggunakan (*for dummies*)
+#### 1.Copy salah satu code:
+#### A. Auto "Sangat Baik":
 ```javascript
 var script = document.createElement("script");
 script.src = "https://cdn.rawgit.com/medreza/autoedom/b8305216/sangatbaik.js";
 document.body.appendChild(script);
 ```
 atau
-#### 2. Auto random "Baik" atau "Sangat Baik":
+#### B. Auto random "Baik" atau "Sangat Baik":
 ```javascript
 var script = document.createElement("script");
 script.src = "https://cdn.rawgit.com/medreza/autoedom/dabed8a5/random_baik.js";
 document.body.appendChild(script);
 ```
-Lalu di halaman kita ngasih rating EDoM tiap matkul (yang banyak bunder2nya) buka fitur Inspect Element (Firefox), pilih tab Console, paste di Console-nya, enter.
+#### 2.Login Palawa. Lalu di halaman kita ngasih rating EDoM tiap matkul (yang banyak bunder2nya) klik kanan, buka fitur Inspect Element (Firefox) atau Inspect (Chrome), buka tab Console, paste di Console-nya, tekan Enter.
 
 P.S. di Firefox versi terbaru harus ketik "allow pasting" dulu di console biar bisa paste
 
+![alt text](https://github.com/medreza/autoedom/raw/master/contoh.png "Klik kanan->Inspect Element->Tab Console->Paste->Enter")
+
+
 Works in Jan 2018.
+
+### Trivia
+I spent much longer time editing readme file than writing actual codes.
