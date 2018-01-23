@@ -17,7 +17,7 @@ Copy salah satu code:
 #### 1. Auto "Sangat Baik":
 ```javascript
 var jq = document.createElement('script');
-jq.src = "https://github.com/medreza/autoedom/blob/master/sangatbaik.js";
+jq.src = "https://github.com/medreza/autoedom/raw/master/sangatbaik.js";
 document.getElementsByTagName('head')[0].appendChild(jq);
 jQuery.noConflict();
 ```
@@ -25,7 +25,7 @@ atau
 #### 2. Auto random "Baik" atau "Sangat Baik":
 ```javascript
 var jq = document.createElement('script');
-jq.src = "https://github.com/medreza/autoedom/blob/master/random_baik.js";
+jq.src = "https://github.com/medreza/autoedom/raw/master/random_baik.js";
 document.getElementsByTagName('head')[0].appendChild(jq);
 jQuery.noConflict();
 ```
