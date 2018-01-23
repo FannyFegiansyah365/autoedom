@@ -30,6 +30,7 @@ document.getElementsByTagName('head')[0].appendChild(jq);
 jQuery.noConflict();
 ```
 Lalu di halaman kita ngasih rating EDoM tiap matkul (yang banyak bunder2nya) buka fitur Inspect Element (Firefox), pilih tab Console, paste di Console-nya, enter.
+
 P.S. di Firefox versi terbaru harus ketik "allow pasting" dulu di console biar bisa paste
 
 Works in Jan 2018.
